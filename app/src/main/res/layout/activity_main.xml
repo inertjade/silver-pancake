@@ -22,73 +22,73 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="POPULAR MOVIES"
+        android:id="@+id/popularMoviesButton"
+        android:clickable="true"
+        android:background="#2e3d49"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/MyNanodegreeApps"
+        android:layout_alignStart="@+id/MyNanodegreeApps"
+        android:layout_alignEnd="@+id/MyNanodegreeApps" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="STOCK HAWK"
         android:id="@+id/StockHawkButton"
         android:textColor="#FFFFFF"
         android:background="#2e3d49"
         android:layout_marginTop="25dp"
-        android:layout_below="@+id/button2"
-        android:layout_alignStart="@+id/button2"
-        android:layout_alignEnd="@+id/button2" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="POPULAR MOVIES"
-        android:id="@+id/button2"
-        android:layout_below="@+id/textView2"
-        android:clickable="true"
-        android:background="#2e3d49"
-        android:textColor="#FFFFFF"
-        android:layout_marginTop="25dp"
-        android:layout_alignEnd="@+id/textView2"
-        android:layout_alignStart="@+id/textView2" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CAPSTONE"
-        android:id="@+id/button3"
-        android:background="#2e3d49"
-        android:textColor="#FFFFFF"
-        android:layout_below="@+id/button4"
-        android:layout_marginTop="25dp"
-        android:layout_alignStart="@+id/button4"
-        android:layout_alignEnd="@+id/button6" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="GO UBIQUITOUS"
-        android:id="@+id/button4"
-        android:background="#2e3d49"
-        android:textColor="#FFFFFF"
-        android:layout_below="@+id/button6"
-        android:layout_alignStart="@+id/button6"
-        android:layout_marginTop="25dp"
-        android:layout_alignEnd="@+id/button6" />
+        android:layout_below="@+id/popularMoviesButton"
+        android:layout_alignStart="@+id/popularMoviesButton"
+        android:layout_alignEnd="@+id/popularMoviesButton" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="BUILD IT BIGGER"
-        android:id="@+id/button5"
+        android:id="@+id/buildItBiggerButton"
         android:background="#2e3d49"
         android:textColor="#FFFFFF"
-        android:layout_below="@+id/button"
         android:layout_marginTop="25dp"
-        android:layout_alignStart="@+id/button"
-        android:layout_alignEnd="@+id/button" />
+        android:layout_below="@+id/StockHawkButton"
+        android:layout_alignStart="@+id/StockHawkButton"
+        android:layout_alignEnd="@+id/StockHawkButton" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="MAKE YOUR APP MATERIAL"
-        android:id="@+id/button6"
+        android:id="@+id/makeYourAppMaterialButton"
         android:background="#2e3d49"
         android:textColor="#FFFFFF"
         android:layout_marginTop="25dp"
-        android:layout_below="@+id/button5"
-        android:layout_alignStart="@+id/button5" />
+        android:layout_below="@+id/buildItBiggerButton"
+        android:layout_alignStart="@+id/buildItBiggerButton"
+        android:layout_alignEnd="@+id/buildItBiggerButton" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO UBIQUITOUS"
+        android:id="@+id/goUbitquitousButton"
+        android:background="#2e3d49"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/makeYourAppMaterialButton"
+        android:layout_alignStart="@+id/makeYourAppMaterialButton"
+        android:layout_alignEnd="@+id/makeYourAppMaterialButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAPSTONE"
+        android:id="@+id/capstoneButton"
+        android:background="#2e3d49"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/goUbitquitousButton"
+        android:layout_alignStart="@+id/goUbitquitousButton"
+        android:layout_alignEnd="@+id/goUbitquitousButton" />
 </RelativeLayout>
